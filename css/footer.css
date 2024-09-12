@@ -1,0 +1,31 @@
+.footer{
+    background-color: rgba(248, 248, 248, 1);
+    padding: 10px 0;
+}
+
+.footer__title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text{
+    font-family: Muli;
+    font-size: 17px;
+    font-weight: 300;
+    color: rgba(132, 132, 132, 1);
+    margin-top: 8px;
+}
+
+.line{
+    margin-top: 30px;
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    margin: 20px 10px;
+}

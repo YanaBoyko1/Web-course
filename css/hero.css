@@ -1,0 +1,32 @@
+.hero {
+    background: url(../img/back.png) no-repeat;
+    background-size: 480px 420px;
+    background-position: 79% 100px;
+    padding-bottom: 30px;
+}
+
+.hero__inner {
+    width: 410px;
+    padding-top: 100px;
+    margin-bottom: 120px;
+}
+
+.hero__title {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.paragraph {
+    font-family: 'Muli';
+    font-size: 17px;
+    line-height: 30px;
+    color: rgba(125, 121, 135, 1);
+}
+
+.hero_button {
+    margin-top: 39px;
+    margin-left: -20px;
+}
+

@@ -1,0 +1,82 @@
+.stories {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Inter;
+    padding-bottom: 80px;
+}
+
+.title_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px
+}
+
+.title_stories {
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.more {
+    margin-right: 18px;
+    margin-top: 19px;
+
+}
+
+.view__more {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(251, 143, 29, 1);
+    cursor: pointer;
+}
+
+
+.container_stories {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    margin: 0 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card_content {
+    width: 230px;
+    margin-top: -50px;
+}
+
+.card_content h3 {
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.card_content p {
+    color: rgba(125, 121, 135, 1);
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+
+.lnk {
+    margin-top: 30px;
+}
+
+.button__card {
+    color: rgba(251, 143, 29, 1);
+    font-size: 15px;
+    font-weight: 600;
+}
