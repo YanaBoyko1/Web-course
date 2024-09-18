@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
 }
 
 .title_container {
@@ -39,7 +39,6 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 80px;
 }
 
 .card {
@@ -81,4 +80,68 @@
     font-size: 15px;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
+}
+
+/* Адаптація для мобільних пристроїв з дуже маленькими картками */
+@media (max-width: 768px) {
+
+    .more {
+            display: none;
+    }
+    
+    .container_stories {
+        margin: 40px -10px;
+        margin-bottom: -60px;
+
+    }
+
+    .title_stories{
+        width: 100%;
+        font-size: 24px;
+
+    }
+
+    .card {
+        width: 130px;
+        /* Зменшуємо ширину картки */
+        margin: 10px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card_content {
+        width: 130px;
+        /* Вирівнюємо ширину текстового блоку під картку */
+        margin-top: -30px;
+    }
+
+    .card_content h3 {
+        font-size: 12px;
+        /* Зменшений заголовок */
+        line-height: 16px;
+        /* font-weight: 00; */
+    }
+
+    .card_content p {
+        font-size: 8px;
+        height: 18px;
+        margin-top: 5px;
+        /* Зменшений текст */
+        line-height: 16px;
+    }
+
+    .lnk {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+    .button__card{
+        font-size: 10px;
+
+    }
+
 }

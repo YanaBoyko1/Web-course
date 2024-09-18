@@ -1,31 +1,75 @@
-.footer{
+.footer {
     background-color: rgba(248, 248, 248, 1);
-    padding: 10px 0;
+    padding: 5px 0;
+    /* Зменшено padding */
 }
 
-.footer__title{
+.footer__title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.footer__lega{
-    font-family: "Mulish";
-    font-size: 14px;
+.footer__lega {
+    font-family: "Mulish", sans-serif;
+    font-size: 12px;
+    /* Зменшено розмір тексту */
     font-weight: 300;
     color: rgba(132, 132, 132, 1);
-    margin-top: 8px;
+    margin-top: 5px;
+    /* Зменшено відступ зверху */
 }
 
-.line{
-    margin-top: 30px;
+.line {
+    margin-top: 15px;
+    /* Зменшено відступ */
 }
 
-.social-links{
+.social-links {
     display: flex;
     justify-content: center;
 }
 
 .social-links a {
-    margin: 20px 10px;
+    margin: 10px 5px;
+    /* Зменшено відступи між соціальними посиланнями */
+    font-size: 12px;
+    /* Якщо є текст, зменшуємо розмір */
+}
+
+/* Адаптація для мобільних пристроїв */
+@media screen and (max-width: 768px) {
+    .footer__title {
+        flex-direction: row;
+        max-width: 100%;
+        /* align-items: center; */
+        /* text-align: center; */
+        margin-top: 10px;
+        font-size: 10px;
+        /* Зменшено розмір для мобільних */
+    }
+    .footer__title img {
+        /* width: 10%; */
+        max-width: 20px;
+        height: auto;
+    }
+
+    .footer__lega {
+        font-size: 8px;
+        /* margin-bottom: 70px; */
+        /* Зменшено розмір тексту */
+        margin-top: 10px;
+    }
+
+    .social-links a {
+        margin: 5px;
+        /* Ще більше зменшено відступи між іконками */
+        font-size: 10px;
+        /* Якщо є текст, зменшуємо розмір */
+    }
+
+    .line {
+        margin-top: 10px;
+        /* Ще більше зменшено відступ */
+    }
 }

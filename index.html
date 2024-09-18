@@ -27,6 +27,9 @@
     <section class="hero">
       <div class="container">
         <header class="header">
+          <div class="header__menu" onclick="toggleMenu()">
+            <img src="img/menu-icon.svg" alt="Menu icon" />
+          </div>
           <nav id="nav-links" class="header__nav">
             <ul>
               <li class="header__nav-item">
@@ -47,8 +50,8 @@
             <img src="img/logo.png" alt="logo" />
           </div>
           <div class="button__header">
-            <a href="#" class="button__default">Login</a>
-            <a href="#" class="button__default">Register</a>
+            <!-- <a href="#" class="button__default">Login</a> -->
+            <!-- <a href="#" class="button__default">Register</a> -->
           </div>
         </header>
       </div>
@@ -69,23 +72,26 @@
     <section class="reviews">
       <div class="container">
         <div class="reviews__inner">
-          <h2 class="reviews__title">Testimonials</h2>
-          <div class="stars">
-            <img src="img/stars.png" alt="stars" />
+          <div class="reviews__text">
+            <h2 class="reviews__title">Testimonials</h2>
+            <div class="stars">
+              <img src="img/stars.png" alt="stars" />
+            </div>
+            <p class="paragraph2">
+              “Quisque in lacus a urna fermentum euismod. Integer mi nibh,
+              dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit
+              amet turpis nec”.
+            </p>
+            <p class="autor-name">Edward Newgate</p>
+            <p class="author-role">Founder Circle</p>
           </div>
-          <p class="paragraph2">
-            “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus
-            ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet
-            turpis nec”.
-          </p>
-          <p class="autor-name">Edward Newgate</p>
-          <p class="author-role">Founder Circle</p>
-        </div>
-        <div class="photo">
-          <img src="img/photo.png" alt="testimonial photo" />
+          <div class="photo">
+            <img src="img/photo.png" alt="testimonial photo" />
+          </div>
         </div>
       </div>
     </section>
+
     <section class="stories">
       <div class="container">
         <div class="title_container">
@@ -128,7 +134,7 @@
               <h3>Skip Chichen Itza and head to this remote Yucatan</h3>
               <p>
                 It’s remote and challenging to get, but braving the jungle and
-                exploring these ruins without the...
+                exploring these ruins without...
               </p>
             </div>
             <div class="lnk">
