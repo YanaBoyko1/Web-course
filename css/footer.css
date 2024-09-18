@@ -9,9 +9,9 @@
     justify-content: space-between;
 }
 
-.text{
-    font-family: Muli;
-    font-size: 17px;
+.footer__lega{
+    font-family: "Mulish";
+    font-size: 14px;
     font-weight: 300;
     color: rgba(132, 132, 132, 1);
     margin-top: 8px;

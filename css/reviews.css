@@ -1,44 +1,44 @@
 .reviews {
-    background-color: rgba(248, 248, 248, 1);
+    background-color: #F8F8F8;
     padding-bottom: 70px;
 }
 
 .reviews__inner {
     max-width: 410px;
     padding-top: 30px;
-    margin-left: 70px ;
+    margin-left: 70px;
 }
 
 .reviews__title {
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-size: 36px;
     font-weight: 700;
-    line-height: 50px; 
+    line-height: 50px;
 }
 
-.paragraph2{
-    font-family: Muli;
+.paragraph2 {
+    font-family: 'Mulish', sans-serif;
     font-size: 22px;
     line-height: 36px;
     margin-top: 20px;
 }
 
-.autor-name{
-    font-family: Inter;
+.autor-name {
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 48px;
     margin-top: 30px;
 }
 
-.author-role{
-    font-family: Inter;
+.author-role {
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     line-height: 48px;
     margin-top: -10px;
 }
 
-.stars{
+.stars {
     margin-top: 110px;
 }
 
@@ -53,4 +53,3 @@
     max-width: 294px;
     height: auto;
 }
-
