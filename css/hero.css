@@ -13,9 +13,8 @@
 
 .hero__inner {
     width: 410px;
-    padding-top: 50px;
+    padding-top: 90px;
     margin-bottom: 100px;
-    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -38,11 +37,10 @@
     line-height: 30px;
     color: rgba(125, 121, 135, 1);
     margin-top: 20px;
-    line-height: 20px;
 }
 
 .hero_button {
-    margin: 30px auto 0 auto;
+    margin-top: 30px;
     background-color: rgba(251, 143, 29, 1);
     border-radius: 8px;
     width: 150px;
@@ -62,10 +60,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .hero__c {
-        padding-top: 40px;
-    }
-
+    
     .hero__title {
         font-size: 25px;
         max-width: 100%;
