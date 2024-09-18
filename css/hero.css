@@ -16,7 +16,6 @@
     padding-top: 50px;
     margin-bottom: 100px;
     text-align: center;
-    /* Центруємо елементи в контейнері */
 }
 
 @media screen and (max-width: 768px) {
@@ -39,11 +38,11 @@
     line-height: 30px;
     color: rgba(125, 121, 135, 1);
     margin-top: 20px;
+    line-height: 20px;
 }
 
 .hero_button {
     margin: 30px auto 0 auto;
-    /* Центруємо кнопку, задавши auto зліва і справа */
     background-color: rgba(251, 143, 29, 1);
     border-radius: 8px;
     width: 150px;
@@ -64,22 +63,25 @@
 
 @media screen and (max-width: 768px) {
     .hero__c {
-        padding-top: 30px;
+        padding-top: 40px;
     }
 
     .hero__title {
-        font-size: 30px;
+        font-size: 25px;
         max-width: 100%;
     }
 
     .paragraph {
-        font-size: 14px;
+        font-size: 12px;
         max-width: 100%;
     }
 
     .hero_button {
         justify-content: center;
-        margin: 20px auto;
-        /* Центруємо для мобільних пристроїв */
+        margin: 20px auto 0 auto;
+        width: 120px;
+        height: 35px;
+        font-size: 12px;
+        margin-bottom: 30px;
     }
 }
