@@ -5,11 +5,10 @@
 body {
     background: white;
 }
+
 @media screen and (max-width: 768px) {
     body {
         text-align: center;
-        font-size: 12px !important;
-        /* додай, щоб переконатися, що інші стилі не перекривають */
     }
 }
 
@@ -42,7 +41,6 @@ p {
     border: 0;
 }
 
-
 .button__default {
     background-color: rgba(251, 143, 29, 1);
     border-radius: 8px;
@@ -57,4 +55,11 @@ p {
     text-decoration: none;
     box-sizing: border-box;
     cursor: pointer;
+}
+
+@media screen and (min-width: 2560px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 }

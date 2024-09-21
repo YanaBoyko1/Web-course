@@ -79,23 +79,13 @@
     .photo {
         display: none;
     }
-    /* .photo {
-        margin-right: 0;
-        margin-top: 0;
-    }
-
-    .photo img {
-        width: 80%;
-        max-width: 240px;
-        height: auto;
-    } */
 
     .reviews__text {
         max-width: 100%;
     }
 
     .paragraph2 {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 30px;
     }
 
